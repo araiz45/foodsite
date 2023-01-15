@@ -1,0 +1,12 @@
+git config --global user.name araiz45
+git config --global user.email "araizzahid45@gmail.com"
+touch .gitignore
+git init
+git config --global --add safe.directory 'F:/clone#1'
+git add .
+git commit -m "Initial commit"
+ git status
+ git remote add origin git@github.com:araiz45/foodsite.git
+ ssh-keygen -t rsa -b 4096 -C "araizzahid45@gmail.com"
+cat /c/Users/araiz/.ssh/id_rsa.pub
+ git push origin master

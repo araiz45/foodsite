@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Open+Sans&family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    /* position: absolute; */
+    /* position: relative; */
+}
+
+.container {
+    overflow: hidden;
+
+}
+
+.hideNav {
+    position: absolute;
+    right: 0px;
+    background: rgb(255, 251, 251);
+    width: 382px;
+    height: 100vh;
+    transition-property: display;
+    transition-duration: 1s;
+    /* position: sticky; */
+}
+
+.hideNav nav img {
+    width: 46px;
+    position: relative;
+    top: 14px;
+    left: 334px;
+    cursor: pointer;
+}
+
+.hideNav ul {
+    margin: 90px;
+}
+
+.hideNav ul li {
+    list-style: none;
+    margin: 76px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.hideNav ul li:active {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+    position: sticky;
+
+}
+
+
+.nav1 h1 {
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+.nav1 p {
+    color: #850000;
+}
+
+
+.btn {
+    width: 117px;
+    background: #850000;
+    padding: 8px;
+    color: white;
+    border: 2px solid #850000;
+    border-radius: 18px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #410101;
+    background: #410101;
+
+}
+
+.nav3 img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.heroContainer {
+    width: 100vw;
+    height: 75vh;
+    background: rgb(160, 151, 151);
+    /* background-size: cover; */
+    /* position: relative; */
+    display: flex;
+}
+
+.hero1 {
+    /* background: green; */
+    width: 50%;
+    height: 49vh;
+    margin: 45px 2px 2px 20px;
+}
+
+.hero1 h1 {
+    font-family: 'Merienda', cursive;
+    padding: 29px 69px 2px 48px;
+    font-size: 44px;
+    color: white;
+}
+
+.hero1 p {
+    font-family: 'Work Sans', sans-serif;
+    padding: 9px 91px 26px 43px;
+    font-size: 18px;
+    color: rgb(221, 217, 217);
+
+}
+
+.hero2 {
+    /* background: turquoise; */
+    width: 50%;
+
+}
+
+.heroBtn {
+    /* padding: 23px 23px 23px 23px; */
+    margin-left: 36px;
+}
+
+/* #watch{
+    color: black;
+    /* background: transparent; */
+/* border: none;
+    padding: 3px;
+    width: 161px; */
+/* font-size: 23px; */
+
+
+
+.material-symbols-outlined {
+    margin: 0px 0px;
+}
+
+.hero2 img {
+    right: 57px;
+    top: 130px;
+    position: absolute;
+    width: 60vh;
+}
+
+.aboutCon {
+    width: 100vw;
+    height: 100vh;
+    /* background: blueviolet; */
+    margin: 200px 0px;
+    /* background: red; */
+}
+
+.aboutMain {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.aboutImg {
+    /* background: red; */
+    width: 50%;
+}
+
+.aboutImg img {
+    width: 420px;
+    margin: 0px 40px;
+}
+
+.aboutTxt {
+    width: 50%;
+    /* background:rgb(160, 151, 151) */
+}
+
+.aboutTxt video {
+    width: 497px;
+}
+
+
+.aboutTxt p {
+    margin: 12px 40px 15px 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(112 112 112);
+
+}
+
+h6 {
+    color: rgb(112 112 112);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+h5 {
+    display: flex;
+    font-family: 'Merienda', cursive;
+    font-size: 32px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+#h5About {
+    color: #850000;
+}
+
+.material-symbols-outlined {
+    color: #850000;
+    font-weight: 900;
+}
+
+
+#h5menu {
+    color: #850000;
+
+}
+
+.menubtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-btn {
+    padding: 19px 22px 10px 22px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(112 112 112);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    margin: 20px 0px;
+    color: rgb(112 112 112);
+    cursor: pointer;
+    margin: 15px;
+    margin-top: 30px;
+
+}
+
+.menu-btn:hover {
+    color: #850000;
+}
+
+.menuCon {
+    /* position: relative;
+    top: 80px; */
+    /* height: 100vh; */
+    /* background: teal; */
+    margin: 100px 0px;
+}
+
+
+.menuMain {
+    margin: 30px 0px;
+}
+
+#starter {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 0px;
+}
+
+
+.menuItem {
+    /* background: gold;
+    border: 2px solid greenyellow; */
+    width: 276px;
+    height: 276px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuItem img {
+    width: 200px;
+}
+
+.menuItem h4 {
+    margin: 20px 0px 9px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+
+
+}
+
+.menuItem p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(148, 143, 143);
+}
+
+.menuItem h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #850000;
+    font-size: 30px;
+}
+
+#breakfast {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 0px;
+}
+
+
+#lunch {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 0px;
+
+
+}
+
+#dinner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 0px;
+
+}
+
+.chefCon {
+    height: 130vh;
+    background: rgb(160, 151, 151);
+    padding: 39px 0px;
+    margin: 215px 0px 215px 0px;
+}
+
+.chefCon h5 {
+    color: white;
+}
+
+.chefCon h6 {
+    color: rgb(255, 250, 250);
+}
+
+.chefMain {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background: blue; */
+    grid-gap: 50px 12px;
+    margin: 48px 23px;
+}
+
+.chef {
+    /* padding: 34px 13px; */
+    width: 28vw;
+    height: 110vh;
+    background: rgb(255, 255, 255);
+    border-radius: 23px;
+    border-radius: 18px;
+}
+
+
+.chef img {
+    width: 287px;
+    border-radius: 18px;
+}
+
+.chef h4 {
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.chef h3 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(117, 106, 106);
+}
+
+
+.chef p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 25px 12px 12px 12px;
+    color: rgb(148, 143, 143);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.contactCon {
+    display: flex;
+    background: rgb(160, 151, 151);
+    width: 100vw;
+    height: 100vh;
+    margin: 40px 0px;
+    /* padding-top: 14px; */
+}
+
+.contactImg {
+    /* background: blue; */
+    width: 40vw;
+    /* height: 100vh; */
+}
+
+.contactImg img {
+    width: 438px;
+    /* background-size: contain; */
+}
+
+.contactform {
+    /* background: red; */
+    width: 60vw;
+}
+
+.contactform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform form input {
+    width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contactform form textarea {
+    font-family: 'Open Sans', sans-serif;
+    width: 490px;
+    margin: 12px;
+    text-align: center;
+}
+
+h5 p {
+    color: #850000;
+}
+
+.upperFooter {
+    display: flex;
+    background: rgb(100, 100, 100);
+    border-bottom: 1px solid white;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.uFooter {
+    width: 33.5vw;
+    padding: 19px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.fheading {
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.lowerFooter {
+    text-align: center;
+    padding: 34px;
+    background: rgb(100, 100, 100);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 984px) {
+    .heroContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100vh;
+        padding: 35px 0px;
+    }
+
+    .hero1 {
+        width: 80%;
+        text-align: center;
+        margin: 23px 0px;
+    }
+
+    .hero1 h1 {
+        padding: 0px;
+    }
+
+    .hero1 p {
+        padding: 0px;
+    }
+
+    .hero1 .heroBtn {
+        margin: 10px 0px;
+    }
+
+    .hero2 {
+        width: auto;
+    }
+
+    .hero2 img {
+        position: unset;
+        width: 37vw;
+    }
+
+    .aboutCon {
+        height: 170vh;
+        margin: 13vh 0vw;
+    }
+
+    .aboutMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutImg {
+        /* background: red; */
+        /* width: 51%; */
+        overflow: hidden;
+        /* width: 85vw; */
+        height: 37vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutImg img {
+        width: 63vw;
+        margin: 0px 40px;
+    }
+
+    .aboutTxt{
+        width:unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutTxt video{
+        width: 91vw;
+    }
+    .menu-btn{
+        padding: 0;
+        margin-top: 0;
+    }
+    #starter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #breakfast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lunch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #dinner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h5{
+        font-size: 27px;
+    }
+    .chefCon{
+        height: 380vh;
+    }
+    .chefMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chef{
+
+        overflow: hidden;
+    }
+    .chef img{
+        width: 28vw;
+    }
+
+    .contactCon{
+        height: 150vh;
+        flex-direction: column;
+    }
+    .contactImg{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .contactImg img{
+        width: 100vw;
+    }
+    .contactform{
+        width: 100vw;
+    }
+
+    .contactform form input{
+        width: 70vw;
+    }
+
+    .contactform form textarea{
+        width: 70vw;
+    }
+    .upperFooter{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .heroContainer{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero2{
+        display: none;
+
+    }
+
+    .menuCon{
+        margin: 300px 0px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    .menu-btn{
+        margin: 10px 2px 10px 2px;
+    }
+    .chef h4{
+        font-size: 20px;
+    }
+    .contactCon{
+        height: 200vh;
+    }
+}
+
+
+@media only screen and (max-width: 300px){
+    .nav2{
+        display: none;
+    }
+    .heroContainer{
+        justify-content: none;
+    }
+    .hero1 h1{
+        font-size: 30px;
+    }
+    .menuCon{
+        margin: 500px 0px;
+    }
+    .btn{
+        width: 80px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .menu-btn{
+        font-size: 12px;
+    }
+}
